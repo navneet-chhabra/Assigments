@@ -1,0 +1,9 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+browser executes js-code onsubmit eventhandler
+that POSTS JSON data to the server 
+end note
+server-->browser: Status code 201, note created
+note over browser:
+Browser adds the newly added note to Notes array and redraw the Notes content.
+end note
